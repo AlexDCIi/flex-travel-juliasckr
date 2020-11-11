@@ -2,10 +2,56 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 body {
   background-image: url(https://images.unsplash.com/photo-1536686598161-1b946fd6dfcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.main {
+  display: flex;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 2rem;
+}
+
+label {
+  background-color: rgba(51, 199, 14, 0.788);
+  border: none;
+  font-size: 1rem;
+}
+
+label,
+input {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+input {
+  border: none;
+}
+
+button[type="reset"] {
+  border: none;
+  padding: 0.5rem 1rem;
+  background-color: rgba(0, 0, 0, 0.089);
+  border: 2px solid rgba(51, 199, 14);
+}
+
+button[type="submit"] {
+  background-color: rgba(51, 199, 14, 0.788);
+  padding: 0.5rem 1rem;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 3px rgba(51, 199, 14);
 }
