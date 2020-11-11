@@ -14,12 +14,16 @@ body {
 
 .main {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
 }
 
 h1 {
   font-size: 3rem;
   text-align: center;
   margin: 2rem;
+  color: rgba(0, 0, 0, 0.637);
 }
 
 label {
@@ -38,11 +42,15 @@ input {
   border: none;
 }
 
+button {
+}
+
 button[type="reset"] {
   border: none;
   padding: 0.5rem 1rem;
-  background-color: rgba(0, 0, 0, 0.089);
+  background-color: rgba(0, 0, 0, 0.041);
   border: 2px solid rgba(51, 199, 14);
+  color: rgba(51, 199, 14);
 }
 
 button[type="submit"] {
